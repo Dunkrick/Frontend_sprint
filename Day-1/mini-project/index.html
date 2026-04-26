@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A premium, minimal task list application for staying organized.">
+    <title>Task List | Minimal Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="app-container">
+        <header class="app-header">
+            <h1>Task List</h1>
+            <p>Stay organized and focused.</p>
+        </header>
+
+        <section class="input-group">
+            <input type="text" id="task-input" placeholder="What needs to be done?" autocomplete="off">
+            <button id="add-btn" class="btn-add">Add</button>
+        </section>
+
+        <section class="task-section">
+            <div id="empty-state">
+                <div class="empty-icon">📝</div>
+                <p class="empty-text">Your list is clear. Add a task above to get started!</p>
+            </div>
+
+            <ul id="task-list">
+                <!-- Tasks will be added here dynamically -->
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
