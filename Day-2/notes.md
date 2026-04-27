@@ -17,3 +17,6 @@
 
 5. Event Handling - User clicks -> State changes -> UI updates
     ```<button onClick={handleClick}>```
+
+
+Today's Goal: I built a working React mini app using components + props + state
