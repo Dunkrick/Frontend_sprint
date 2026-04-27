@@ -7,7 +7,7 @@ const TaskForm = ({ onAdd }) => {
         e.preventDefault();
         if (taskInput.trim()) {
             onAdd(taskInput);
-            setTaskInput(""); // Clear the input after adding
+            setTaskInput("");
         }
     }
 
