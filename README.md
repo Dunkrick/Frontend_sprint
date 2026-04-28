@@ -1,0 +1,1 @@
+this repo contains the sprint of me learning and understanding the frontend of web development, leveraging with the help of AI
